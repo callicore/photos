@@ -6,8 +6,8 @@
  *
  * This is released under the GPL, see docs/gpl.txt for details
  *
- * @author       Elizabeth Smith <emsmith@callicore.net>
- * @copyright    Elizabeth Smith (c)2006
+ * @author       Elizabeth M Smith <emsmith@callicore.net>
+ * @copyright    Elizabeth M Smith (c)2006
  * @link         http://callicore.net/desktop/programs/writer
  * @license      http://www.opensource.org/licenses/gpl-license.php GPL
  * @version      $Id: photo.class.php 265 2007-01-28 17:56:56Z emsmith $
@@ -464,7 +464,7 @@ class CC_Photo extends CC_Main
 		$dialog->set_license(file_get_contents(CC::$dir . DS . 'docs' . DS . 'gpl.txt'));
 		$dialog->set_logo(GdkPixbuf::new_from_file(CC::$dir."programs".DS."photo".DS."about.PNG"));
 		$dialog->set_authors(array(
-			"Elizabeth Smith <auroraeosrose@gmail.com>",
+			"Elizabeth M Smith <auroraeosrose@gmail.com>",
 			"Bob Majdak Jr ",
 			"Leon Pegg <leon.pegg@gmail.com>",
 			"Jace Ferguson"

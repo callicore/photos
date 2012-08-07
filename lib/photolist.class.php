@@ -6,8 +6,8 @@
  *
  * This is released under the GPL, see docs/gpl.txt for details
  *
- * @author       Elizabeth Smith <emsmith@callicore.net>
- * @copyright    Elizabeth Smith (c)2006
+ * @author       Elizabeth M Smith <emsmith@callicore.net>
+ * @copyright    Elizabeth M Smith (c)2006
  * @link         http://callicore.net/desktop/programs/writer
  * @license      http://www.opensource.org/licenses/gpl-license.php GPL
  * @version      $Id: photolist.class.php 258 2007-01-28 17:46:54Z emsmith $
