@@ -1,0 +1,47 @@
+#!/usr/bin/env php
+<?php
+/**
+ * photos.phpg - \Callicore\Photos startup file
+ *
+ * This is released under the MIT, see license.txt for details
+ *
+ * @author       Elizabeth M Smith <auroraeosrose@gmail.com>
+ * @copyright    Elizabeth M Smith (c) 2009-2012
+ * @link         http://callicore.net
+ * @license      http://www.opensource.org/licenses/mit-license.php MIT
+ * @since        Php 5.4.0 GTK 2.24.0
+ * @package      callicore
+ * @subpackage   photos
+ * @filesource
+ */
+
+/**
+ * Namespace for application
+ */
+namespace Callicore\Photos;
+
+/**
+ * Figure out our library location
+ */
+defined('CALLICORE_LIB') || define('CALLICORE_LIB', (getenv('CALLICORE_LIB') ? getenv('CALLICORE_LIB') : __DIR__ . DIRECTORY_SEPARATOR . 'callicore' . DIRECTORY_SEPARATOR));
+
+/**
+ * Figure out our app location
+ */
+defined('CALLICORE_PHOTOS') || define('CALLICORE_PHOTOS', (getenv('CALLICORE_PHOTOS') ? getenv('CALLICORE_PHOTOS') : __DIR__ . DIRECTORY_SEPARATOR));
+
+/**
+ * include our Callicore library
+ */
+include CALLICORE_LIB . 'callicore.php';
+
+/**
+ * include our photos application
+ */
+include CALLICORE_PHOTOS . 'photos.php';
+
+ /**
+ * Create our application and run it
+ */
+ $application = new Application;
+ $application->run();
